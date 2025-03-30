@@ -86,3 +86,33 @@ footer {
     text-align: center;
     padding: 10px;
 }
+.notes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.notes-table th, .notes-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.notes-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.notes-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.notes-table a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.notes-table a:hover {
+    text-decoration: underline;
+}
